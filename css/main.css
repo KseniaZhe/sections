@@ -9,16 +9,16 @@ html {
 body {
   font-family: "Lato", sans-serif;
   text-align: center;
-  margin: 1.5rem;
+  margin: 1rem;
   background-color: #f2f2f2;
   vertical-align: middle;
 }
 
-section img {
+img {
   width: 100%;
   max-width: 25em;
   display: inline-block;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -39,8 +39,8 @@ div p {
 
 div {
   text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   max-width: 25em;
   display: inline-block;
   margin-left: auto;
@@ -66,8 +66,4 @@ section {
 a:hover {
   background-color: #666;
   color: #fff;
-}
-
-.btn {
-
 }
