@@ -9,7 +9,7 @@ html {
 body {
   font-family: "Lato", sans-serif;
   text-align: center;
-  margin: 1rem;
+  margin: 0;
   background-color: #f2f2f2;
   vertical-align: middle;
 }
@@ -18,33 +18,39 @@ img {
   width: 100%;
   max-width: 25em;
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
+  vertical-align: middle;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 h2 {
   display: inline-block;
   font-size: 1.5rem;
   margin-bottom: 0;
+  vertical-align: middle;
 }
 
 div p {
   display: inline-block;
   width: 100%;
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 div {
   text-align: left;
-  margin-top: 1rem;
+  margin-top: 0;
   margin-bottom: 2rem;
   max-width: 25em;
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
+  vertical-align: middle;
+  padding: 1.5rem;
 }
 
 a {
@@ -55,10 +61,11 @@ a {
   border-color: #666;
   padding: 0.4em 0.75em 0.5em;
   color: #333;
+  font-size: 1.1rem;
 }
 
 section {
-  text-align: left;
+  text-align: center;
   line-height: 1.5;
   vertical-align: middle;
 }
@@ -66,4 +73,8 @@ section {
 a:hover {
   background-color: #666;
   color: #fff;
+}
+
+a {
+  margin-bottom: 6rem;
 }
